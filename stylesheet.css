@@ -1,0 +1,107 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+
+}
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 16px 24px;
+    box-shadow: 0 2px 5px rgba(142, 142, 142, 0.1);
+    padding-bottom: 4px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    position: relative;
+    top: 4px;
+
+}
+
+
+
+.title {
+    color: rgb(3, 6, 60);
+    font-size: 24px;
+    font-weight: bolder;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+
+}
+
+.nav-link {
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    font-weight: 500;
+    font: 14px;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    padding-left: 24px;
+
+}
+
+.nav-link:hover {
+    color: rgb(55, 2, 189);
+    transition: 0.5s;
+}
+
+.hero-copy {
+    color: rgb(2, 2, 52);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 210px;
+
+}
+
+.subcopy {
+    color: rgb(2, 2, 52);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: -80px;
+}
+
+.cta-btn1 {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 15px;
+    background-color: antiquewhite;
+    padding: 16px 48px;
+    border-radius: 24px;
+}
+
+.cta-btn2 {
+    color: rgb(255, 253, 250);
+    font-weight: 600;
+    font-size: 15px;
+    background-color: black;
+    padding: 16px 54px;
+    border-radius: 24px;
+}
+
+.cta-btn-div {
+    position: relative;
+    text-align: center;
+    top: -50px;
+}
+
+
+.cta-btn1:hover {
+    background-color: rgb(251, 208, 153);
+}
+
+.cta-btn2:hover {
+    background-color: rgb(55, 2, 189);
+}
+
